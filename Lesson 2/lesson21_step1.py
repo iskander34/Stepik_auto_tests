@@ -12,6 +12,7 @@ try:
     browser.get(link)
 
     # считываем значение для переменной х
+    #
     x_element = browser.find_element_by_id("input_value")
     x = x_element.text
     y = calc(x)
